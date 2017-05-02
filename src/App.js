@@ -10,13 +10,8 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
-        {/*should this be a component*/}
-        <div className="row">
-          {/*should this be a component*/}
-          <div className="cell"></div>
-        </div>
-
+      <div id="board">
+        <div className="cell"></div>
         <div id="announce-winner"></div>
         <button id="clear">Clear Board</button>
       </div>
