@@ -17,6 +17,10 @@ div .cell {
   text-align: center;
 }
 
+div .cell:hover {
+  background-color: #81ef86;
+}
+
 .row {
   clear: both;
 }
