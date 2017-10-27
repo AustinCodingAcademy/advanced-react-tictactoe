@@ -6,7 +6,10 @@ body {
 #board{
   width:315px;
   height:315px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
+/*
 div .cell {
   width: 100px;
   height: 100px;
@@ -15,13 +18,36 @@ div .cell {
   border: 1px solid #808080;
   font-size: 100px;
   text-align: center;
-}
+
+} */
 
 .row {
   clear: both;
 }
 
+.square {
+  background: white;
+  border: 1px solid black;
+  float: left;
+  font-weight: bold;
+  font-size: 80px;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin-top: -1px;
+  margin-right: -1px;
+}
+
 #announce-winner {
   clear: both;
   font-size: 50px;
+}
+
+#nextplayer {
+  clear: both;
+  font-size: 25px;
+}
+
+#clear {
+  font-size: 25px;
 }
